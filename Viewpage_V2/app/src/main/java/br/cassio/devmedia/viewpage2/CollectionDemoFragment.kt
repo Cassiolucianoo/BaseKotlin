@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
@@ -30,8 +31,8 @@ class CollectionDemoFragment : Fragment() {
         viewPager = view.findViewById(R.id.pager)
         viewPager.adapter = demoCollectionPagerAdapter
 
-        val tabLayout = view.findViewById(R.id.tab_layout)
-        tabLayout.setupWithViewPager(viewPager)
+        //val tabLayout = view.findViewById(R.id.tab_layout)
+       // tabLayout.setupWithViewPager(viewPager)
 
     }
 }
